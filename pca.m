@@ -28,7 +28,7 @@ for i = 1:n
   temparray = S(1:i,1:i);
   temp_sum = sum(sum(temparray));
   temp = temp_sum/sum_S;
-  if sum>0.98
+  if sum_S>0.98
     k = i;
     break;
    end
